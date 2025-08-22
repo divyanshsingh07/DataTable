@@ -66,6 +66,6 @@ const TableHeader = <T,>({
   );
 };
 
-export default TableHeader as <T,>(props: TableHeaderProps<T>) => JSX.Element;
+export default TableHeader;
 
 

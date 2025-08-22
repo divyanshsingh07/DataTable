@@ -94,6 +94,6 @@ const DataTable = <T,>({ data, columns, loading = false, selectable = false, onR
   );
 };
 
-export default DataTable as <T,>(props: DataTableProps<T>) => JSX.Element;
+export default DataTable;
 
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import TableCell from './TableCell';
 
 interface TableRowProps<T> {
@@ -31,6 +30,6 @@ const TableRow = <T,>({ row, columns, selectable, isSelected, onToggle }: TableR
   );
 };
 
-export default TableRow as <T,>(props: TableRowProps<T>) => JSX.Element;
+export default TableRow;
 
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Column } from './types';
 import TableRow from './TableRow';
 
@@ -27,6 +26,6 @@ const TableBody = <T,>({ data, columns, selectable, selectedRowIndexes, onToggle
   );
 };
 
-export default TableBody as <T,>(props: TableBodyProps<T>) => JSX.Element;
+export default TableBody;
 
 
